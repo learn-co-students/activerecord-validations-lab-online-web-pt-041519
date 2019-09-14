@@ -1,4 +1,4 @@
-class ClickbaitTitleValidator < ActiveModel::EachValidator
+class ClickbaitValidator < ActiveModel::EachValidator
 
   def validate_each(post, attribute, value)
     valid_cb = ["Won't Believe", "Secret", "Guess"]
